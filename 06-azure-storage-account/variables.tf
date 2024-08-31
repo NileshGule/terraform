@@ -10,3 +10,13 @@ variable "resource_group_location" {
   description = "Name of the resource group location"
 }
 
+variable "storage_account_name" {
+  type        = string
+  description = "Name of the storage account"
+}
+
+variable "storage_account_container_name" {
+  type        = string
+  description = "Name of the container inside the storage account"
+}
+

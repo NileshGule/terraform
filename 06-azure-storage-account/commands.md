@@ -26,6 +26,8 @@ terraform apply -auto-approve
 
 ## Terraform destroy (optional)
 
+Be careful before destroying the resources created using this storage account. They might be referenced in the other sections and could have adverse effects on the functioning of terraform reources which are storing state in remote Azure backend.
+
 ```terrafrom
 
 terraform destroy -auto-approve
